@@ -119,7 +119,6 @@ class SettingsList extends React.Component {
             key={'itemTitleInfo_' + index}
             style={[
               position === 'Bottom' ? null : styles.rightSideStyle,
-              {color: '#B1B1B1'},
               item.titleInfoStyle
             ]}>
             {item.titleInfo}
